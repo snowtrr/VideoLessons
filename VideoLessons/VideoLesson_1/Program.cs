@@ -10,6 +10,19 @@ namespace VideoLesson_1
     {
         static void Main(string[] args)
         {
+            var student = new Student();
+            student._age = 5;
+
+            Calculator(student);
+            Console.WriteLine(student._age);
+            Console.ReadLine();
+
+
+        }
+
+        static void Calculator(Student student)
+        {
+            student._age += 1;
         }
     }
 }
