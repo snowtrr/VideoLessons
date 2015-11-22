@@ -43,8 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AlexandrFighter.cs" />
+    <Compile Include="BaseFight.cs" />
+    <Compile Include="EugeneFighter.cs" />
+    <Compile Include="FighterType.cs" />
+    <Compile Include="MultiplySealed.cs" />
+    <Compile Include="PageBase.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Singleton.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
