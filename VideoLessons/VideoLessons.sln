@@ -15,6 +15,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoLesson_5", "VideoLesso
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoLesson_6", "VideoLesson_6\VideoLesson_6.csproj", "{E0ACF176-590C-47B8-9756-AC5070F0B41C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VideoLesson_7", "VideoLesson_7", "{ED8161A2-CE2E-43ED-8DE4-D13DFF22313B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextEditor", "VideoLesson_7\TextEditor\TextEditor.csproj", "{A5FD56B0-C88D-4AA5-8D65-0616E4D4C437}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextEditor.BL", "VideoLesson_7\TextEditor.BL\TextEditor.BL.csproj", "{6B80050C-75D9-481A-8E06-29D1633574D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,8 +51,20 @@ Global
 		{E0ACF176-590C-47B8-9756-AC5070F0B41C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0ACF176-590C-47B8-9756-AC5070F0B41C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0ACF176-590C-47B8-9756-AC5070F0B41C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5FD56B0-C88D-4AA5-8D65-0616E4D4C437}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5FD56B0-C88D-4AA5-8D65-0616E4D4C437}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5FD56B0-C88D-4AA5-8D65-0616E4D4C437}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5FD56B0-C88D-4AA5-8D65-0616E4D4C437}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B80050C-75D9-481A-8E06-29D1633574D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B80050C-75D9-481A-8E06-29D1633574D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B80050C-75D9-481A-8E06-29D1633574D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B80050C-75D9-481A-8E06-29D1633574D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A5FD56B0-C88D-4AA5-8D65-0616E4D4C437} = {ED8161A2-CE2E-43ED-8DE4-D13DFF22313B}
+		{6B80050C-75D9-481A-8E06-29D1633574D8} = {ED8161A2-CE2E-43ED-8DE4-D13DFF22313B}
 	EndGlobalSection
 EndGlobal

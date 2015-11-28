@@ -6,7 +6,7 @@ namespace VideoLesson_3
     {
         private static void Main(string[] args)
         {
-            string mess = "Allo";
+            // string mess = "Allo";
             var stringHelper = new StringHelper();
 
             // DELGATE

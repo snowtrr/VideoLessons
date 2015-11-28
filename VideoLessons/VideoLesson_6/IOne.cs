@@ -3,6 +3,6 @@
     public interface IOne
     {
         object Name();
-        int Age();
+        object Age();
     }
 }

@@ -9,12 +9,12 @@ namespace VideoLesson_6
             return 22;
         }
 
-        int IOne.Age()
+        object IOne.Age()
         {
             return 17;
         }
 
-        object IOne.Name()
+        public object Name()
         {
             return "Anton";
         }
