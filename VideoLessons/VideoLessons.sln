@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextEditor", "VideoLesson_7
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextEditor.BL", "VideoLesson_7\TextEditor.BL\TextEditor.BL.csproj", "{6B80050C-75D9-481A-8E06-29D1633574D8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoLesson_8", "VideoLesson_8\VideoLesson_8.csproj", "{35F12D72-8BE4-424B-8A1D-AF47970AC496}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +61,10 @@ Global
 		{6B80050C-75D9-481A-8E06-29D1633574D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B80050C-75D9-481A-8E06-29D1633574D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B80050C-75D9-481A-8E06-29D1633574D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35F12D72-8BE4-424B-8A1D-AF47970AC496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35F12D72-8BE4-424B-8A1D-AF47970AC496}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35F12D72-8BE4-424B-8A1D-AF47970AC496}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35F12D72-8BE4-424B-8A1D-AF47970AC496}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

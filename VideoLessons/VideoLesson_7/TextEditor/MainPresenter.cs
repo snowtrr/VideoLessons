@@ -4,15 +4,15 @@ namespace TextEditor
 {
     using BL;
 
-    public class MainPresenter
+    public class MainPresenter<T>
     {
-        private readonly IMainForm _view;
-        private readonly IFileManager _manager;
+        private readonly IMainForm<T> _view;
+        private readonly IFileManager<T> _manager;
         private readonly IMessgeService _messgeService;
 
-        private string _currentFilePath;
+        private T _currentFilePath;
 
-        public MainPresenter(IMainForm view, IFileManager manager, IMessgeService messgeService)
+        public MainPresenter(IMainForm<T> view, IFileManager<T> manager, IMessgeService messgeService)
         {
             _view = view;
             _manager = manager;

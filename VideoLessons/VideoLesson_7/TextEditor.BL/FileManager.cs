@@ -3,17 +3,17 @@
     using System.IO;
     using System.Text;
 
-    public interface IFileManager
+    public interface IFileManager<T>
     {
-        string GetContent(string filePath);
-        string GetContent(string filePath, Encoding encoding);
-        void SaveContent(string content, string filePath);
-        void SaveContent(string content, string filePath, Encoding encoding);
+        string GetContent(T filePath);
+        string GetContent(T filePath, Encoding encoding);
+        void SaveContent(string content, T filePath);
+        void SaveContent(string content, T filePath, Encoding encoding);
         int GetSymbolCount(string content);
-        bool IsExist(string filePath);
+        bool IsExist(T filePath);
     }
 
-    public class FileManager : IFileManager
+    public class FileManager : IFileManager<string>
     {
         private readonly Encoding _defaultEncoding = Encoding.GetEncoding(1251);
 

@@ -22,7 +22,7 @@ namespace TextEditor
             var service = new MessgeService();
             var manager = new FileManager();
 
-            new MainPresenter(form, manager, service);
+            new MainPresenter<string>(form, manager, service);
 
             Application.Run(form);
         }

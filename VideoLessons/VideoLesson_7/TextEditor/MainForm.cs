@@ -10,9 +10,9 @@
     using System.Threading.Tasks;
     using System.Windows.Forms;
 
-    public interface IMainForm
+    public interface IMainForm<T>
     {
-        string FilePath { get; }
+        T FilePath { get; }
         string Content { get; set; }
         void SetSymbolCount(int count);
         event EventHandler FileOpenClick;
@@ -20,7 +20,7 @@
         event EventHandler ContentChanged;
     }
 
-    public partial class MainForm : Form, IMainForm
+    public partial class MainForm : Form, IMainForm<string>
     {
         public MainForm()
         {
